@@ -1,0 +1,66 @@
+.table {
+  width: 650px;
+}
+
+.table__head {
+  display: flex;
+}
+
+.table__head span {
+  border: 1px solid teal;
+  padding: 10px 15px;
+  background: teal;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.table__head span:first-child {
+  width: 400px;
+}
+
+.table__head span:last-child {
+  width: 250px;
+  text-align: right;
+  margin-left: -1px;
+  border-left: 1px solid #fff;
+}
+
+.table__notUser {
+  border: 1px solid teal;
+  padding: 10px 15px;
+  margin-top: -1px;
+}
+
+.user-list li span {
+  border: 1px solid teal;
+  padding: 10px 15px;
+  margin-top: -1px;
+}
+
+.user-list li span:first-child {
+  width: 400px;
+}
+
+.user-list li span:last-child {
+  margin-left: -1px;
+  width: 250px;
+  text-align: right;
+}
+
+.user-list,
+.user-list li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.user-list {
+  flex-direction: column;
+}
+
+.user-list ul li span:first-child {
+  margin-left: 30px;
+  width: 370px;
+}
